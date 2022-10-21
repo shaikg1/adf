@@ -1,0 +1,45 @@
+{
+	"name": "ds_dlgen2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_dlgen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "emp.csv",
+				"fileSystem": "data"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "empid",
+				"type": "String"
+			},
+			{
+				"name": "ename",
+				"type": "String"
+			},
+			{
+				"name": "dname",
+				"type": "String"
+			},
+			{
+				"name": "salary",
+				"type": "String"
+			},
+			{
+				"name": "gender",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

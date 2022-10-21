@@ -1,0 +1,12 @@
+{
+	"name": "ls_dlgen2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://17octadlgen2.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQERDNzM1Rjc3LUQ0QzQtNDVGNi1COUVDLTVFMDIzMDlDRjMzRF8zYTNiMjA3NS05YzBjLTQ1YTgtYmY2Zi0wMWU0YWM0MmEzM2MiDQp9"
+		}
+	}
+}

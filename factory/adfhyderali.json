@@ -1,0 +1,9 @@
+{
+	"name": "adfhyderali",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2619cce1-b979-4969-b580-71bc85c318f0",
+		"tenantId": "62c24f23-33fe-4745-af07-e5ec7eea1c99"
+	}
+}
