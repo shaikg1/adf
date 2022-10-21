@@ -1,0 +1,32 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_externaldbconnect",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "bookid",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "bookname",
+				"type": "varchar"
+			},
+			{
+				"name": "bookprice",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "cogni",
+			"table": "book"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

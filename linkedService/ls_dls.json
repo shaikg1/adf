@@ -1,0 +1,13 @@
+{
+	"name": "ls_dls",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "data lake linked service",
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://skgdls.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDFDQzY2NDc4LUVFRkYtNEFCRi05RkUwLTQzRjQyOTY5NzYwQ19kYjZiODY1MC01MjU2LTRjOWUtYjczMy00YTYwN2Q4NDg3NDYiDQp9"
+		}
+	}
+}

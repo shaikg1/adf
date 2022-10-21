@@ -1,0 +1,12 @@
+{
+	"name": "AzureKeyVault1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "dbsecrete",
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://shaikg.vault.azure.net/"
+		}
+	}
+}
