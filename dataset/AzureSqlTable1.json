@@ -2,7 +2,7 @@
 	"name": "AzureSqlTable1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "ls_externaldbconnect",
+			"referenceName": "ls_sk123db",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
