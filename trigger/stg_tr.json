@@ -1,0 +1,24 @@
+{
+	"name": "stg_tr",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline3",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/data/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/aa98e429-f573-4bc7-aed6-d109ba77b124/resourceGroups/adf/providers/Microsoft.Storage/storageAccounts/skgdls",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
