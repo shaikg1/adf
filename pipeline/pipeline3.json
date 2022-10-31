@@ -20,7 +20,7 @@
 						"storeSettings": {
 							"type": "AzureBlobFSReadSettings",
 							"recursive": true,
-							"wildcardFileName": "CTS_1.csv",
+							"wildcardFileName": "CTS_*",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
