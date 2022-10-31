@@ -8,12 +8,16 @@
 				"pipelineReference": {
 					"referenceName": "pipeline3",
 					"type": "PipelineReference"
+				},
+				"parameters": {
+					"fname": "@triggerbody().filename"
 				}
 			}
 		],
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
-			"blobPathBeginsWith": "/data/blobs/",
+			"blobPathBeginsWith": "/data/blobs/CTS_*",
+			"blobPathEndsWith": ".csv",
 			"ignoreEmptyBlobs": true,
 			"scope": "/subscriptions/aa98e429-f573-4bc7-aed6-d109ba77b124/resourceGroups/adf/providers/Microsoft.Storage/storageAccounts/skgdls",
 			"events": [
