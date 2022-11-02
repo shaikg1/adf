@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": "campaignanalytics.csv",
 				"fileSystem": "data"
 			},
 			"columnDelimiter": ",",
