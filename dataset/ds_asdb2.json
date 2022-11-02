@@ -1,0 +1,53 @@
+{
+	"name": "ds_asdb2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sk123db",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "region",
+				"type": "nvarchar"
+			},
+			{
+				"name": "country",
+				"type": "nvarchar"
+			},
+			{
+				"name": "productCategory",
+				"type": "nvarchar"
+			},
+			{
+				"name": "campaignName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "revenue",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 2
+			},
+			{
+				"name": "revenueTarget",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 2
+			},
+			{
+				"name": "city",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Stat",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "campaignAnalytics"
+		}
+	}
+}
